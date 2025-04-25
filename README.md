@@ -30,3 +30,16 @@ pip install requests beautifulsoup4
 jalankan script 
 example : python3 cekweb.py
 masukan url : https://example.com
+==================================================================================
+Untuk Versi GUI
+==================================================================================
+(+) Jika kamu pakai Linux (Debian/Ubuntu):
+
+sudo apt update
+sudo apt install python3-tk
+
+(+) Jika kamu pakai Arch/Manjaro:
+
+sudo pacman -S tk
+
+(+) Jika kamu pakai Windows dengan Python bawaan dari python.org: tkinter biasanya sudah termasuk, tapi pastikan kamu tidak pakai venv minimalis tanpa GUI support.
